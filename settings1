@@ -1,0 +1,153 @@
+{
+"editor.cursorStyle": "line",
+"editor.cursorBlinking": "expand",
+"editor.fontSize": 20,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true,
+"editor.formatOnSaveMode": "modificationsIfAvailable",
+"editor.suggestSelection": "first",
+"editor.tabCompletion": "on",
+"editor.insertSpaces": true,
+"editor.tabSize": 4,
+"editor.detectIndentation": false,
+"editor.minimap.enabled": false,
+"editor.fontFamily": "'Fira Code'",
+"editor.fontLigatures": "'ss01', 'cv14', 'ss04', 'cv18', 'cv31', cv29', 'cv30', 'cv21', 'cv25', 'cv28', 'cv32', 'cv27', 'ss10', 'zero', 'onum'",
+"editor.fontWeight": 400,
+"editor.tokenColorCustomizations": {
+"comments": "#55f",
+"strings": "#0f0",
+"keywords": "#c0c",
+"types": "#f84",
+"variables": "#aff",
+"functions": "#0ff",
+"numbers": "#ff0",
+"textMateRules": [
+{
+"scope": "keyword.operator",
+"settings": {
+"foreground": "#f00"
+}
+},
+{
+"scope": "punctuation",
+"settings": {
+"foreground": "#f00"
+}
+},
+{
+"scope": "variable.other.constant",
+"settings": {
+"foreground": "#5bc"
+}
+},
+{
+"scope": "variable.other.property",
+"settings": {
+"foreground": "#ccc"
+}
+},
+{
+"scope": "variable.parameter",
+"settings": {
+"foreground": "#fc7"
+}
+}
+]
+},
+"editor.bracketPairColorization.enabled": true,
+"editor.guides.bracketPairs": true,
+"editor.guides.bracketPairsHorizontal": true,
+"editor.guides.highlightActiveBracketPair": true,
+"editor.inlineSuggest.enabled": true,
+"editor.unicodeHighlight.nonBasicASCII": false,
+"editor.language.colorizedBracketPairs": [
+["[", "]"],
+["(", ")"],
+["{", "}"],
+[" <", ">\n"]
+],
+"workbench.editor.tabSizing": "shrink",
+"workbench.iconTheme": "material-icon-theme",
+"workbench.sideBar.location": "right",
+"workbench.colorCustomizations": {
+"[Default Dark+]": {
+"editor.background": "#000"
+},
+"editorBracketHighlight.foreground1": "#c000ff",
+"editorBracketHighlight.foreground2": "#00f",
+"editorBracketHighlight.foreground3": "#00c0ff",
+"editorBracketHighlight.foreground4": "#00ff80",
+"editorBracketHighlight.foreground5": "#ffff00",
+"editorBracketHighlight.foreground6": "#ff4000",
+"editorBracketHighlight.foreground7": "#ff0080",
+"editorBracketHighlight.unexpectedBracket.foreground": "#f00"
+},
+"indentRainbow.colors": [
+"rgba(192, 0, 255, .25)",
+"rgba( 0, 0, 255, .25)",
+"rgba( 0, 192, 255, .25)",
+"rgba( 0, 255, 128, .25)",
+"rgba( 64, 255, 0, .25)",
+"rgba(255, 255, 0, .25)",
+"rgba(255, 64, 0, .25)",
+"rgba(255, 0, 128, .25)"
+],
+"files.exclude": {
+"/.classpath": false,
+"/.project": true,
+"/.settings": true,
+"/.factorypath": true
+},
+"files.autoSave": "afterDelay",
+"javascript.format.insertSpaceAfterConstructor": false,
+"prettier.printWidth": 120,
+"prettier.useTabs": true,
+"prettier.withNodeModules": true,
+"prettier.singleQuote": true,
+"prettier.bracketSpacing": false,
+
+"code-runner.saveFileBeforeRun": true,
+"code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName -d ../bin/ && cd ../bin; java $fileNameWithoutExt; cd ../src",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python3 -u",
+    "go": "go run",
+    "shellscript": "bash",
+    "csharp": "scriptcs",
+    "typescript": "ts-node",
+    "r": "Rscript"
+},
+"liveServer.settings.donotVerifyTags": true,
+"liveServer.settings.donotShowInfoMsg": true,
+
+"emmet.showSuggestionsAsSnippets": true,
+"emmet.excludeLanguages": ["markdown", "php"],
+"emmet.triggerExpansionOnTab": true,
+"github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+},
+"git-graph.defaultColumnVisibility": {
+    "Commit": true,
+    "Date": true,
+    "Author": true
+},
+"javascript.updateImportsOnFileMove.enabled": "always",
+"rust-analyzer.hover.actions.references.enable": true,
+"[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+},
+"[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+},
+"vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+"diffEditor.hideUnchangedRegions.enabled": true
+}

@@ -1,7 +1,7 @@
 {
 "editor.cursorStyle": "line",
 "editor.cursorBlinking": "expand",
-"editor.fontSize": 20,
+"editor.fontSize": 14,
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true,
 "editor.formatOnSaveMode": "modificationsIfAvailable",
